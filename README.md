@@ -1,70 +1,82 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Reyna's Portfolio Website
 
-## Available Scripts
+Welcome to my personal portfolio! I'm Reyna Pineda, a passionate software engineer with a love for creating innovative applications. This website is a reflection of my journey in software engineering, showcasing the projects I've worked on, my skills, and a little bit about who I am.
+Features
 
-In the project directory, you can run:
+    Dark/Light Mode Toggle: Choose between a soothing dark theme or a light theme, depending on your preference.
+    Interactive Navbar: A fully responsive navbar with hover previews and active tab highlighting, making it easy to navigate through my work and achievements.
+    Mobile-First Design: Optimized for mobile devices with a clean, minimalistic design, ensuring a great experience on all screen sizes.
+    Project Showcase: An interactive section where you can explore the projects I've built and get a glimpse of my coding skills and creativity.
 
-### `npm start`
+Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+    React: My framework of choice for building modern web applications.
+    CSS: For styling and creating a visually appealing layout.
+    React Router: For seamless navigation between pages.
+    GitHub Pages: Hosting the website on GitHub Pages for easy access.
+    Context API: For managing the dark and light theme preferences.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+About Me
 
-### `npm test`
+I am an aspiring software engineer who loves to solve problems and build meaningful tools. I get excited about creating applications that can make a difference, whether it’s a simple tool to improve daily life or a complex system designed to tackle specific challenges. With a background in both software development and UI/UX design, I aim to create intuitive, user-friendly experiences with a solid technical foundation.
+Live Demo
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Check out the live version of my portfolio:
+https://reyna221b.github.io/portfolio/
+Getting Started
+Prerequisites
 
-### `npm run build`
+To run this project locally, you'll need:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    Node.js (version 14 or higher)
+    npm (Node Package Manager)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    Clone the repository:
 
-### `npm run eject`
+git clone https://github.com/reyna221b/portfolio.git
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Navigate to the project directory:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+cd portfolio
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Install the dependencies:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+npm install
 
-## Learn More
+Start the development server:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    npm start
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    Open the app in your browser at http://localhost:3000.
 
-### Code Splitting
+Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+To deploy the website to GitHub Pages, run:
 
-### Analyzing the Bundle Size
+npm run deploy
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+This will automatically build the app and push it to the gh-pages branch.
+Folder Structure
 
-### Making a Progressive Web App
+portfolio/
+├── public/
+│   ├── images/               # Folder for images used in the portfolio
+│   ├── index.html            # Main HTML file
+│   └── ...
+├── src/
+│   ├── components/           # Reusable components like Navbar, ThemeToggle, etc.
+│   ├── pages/                # Pages like Home, About, Projects, Contact
+│   ├── ThemeContext.js       # Context API for managing the theme (dark/light)
+│   ├── App.js                # Main app component that renders all pages
+│   ├── index.js              # Entry point for React
+│   └── ...
+├── .gitignore                # Specifies files to be ignored by Git
+├── package.json              # Contains project metadata and dependencies
+└── README.md                 # This file
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Contributing
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+I’m always open to suggestions or feedback. If you’d like to contribute, feel free to fork this repository and submit a pull request. If you find any issues or bugs, please open an issue, and I’ll be happy to fix them!
