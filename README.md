@@ -77,6 +77,7 @@ portfolio/
 ├── package.json              # Contains project metadata and dependencies
 └── README.md                 # This file
 
+
 Contributing
 
 I’m always open to suggestions or feedback. If you’d like to contribute, feel free to fork this repository and submit a pull request. If you find any issues or bugs, please open an issue, and I’ll be happy to fix them!
