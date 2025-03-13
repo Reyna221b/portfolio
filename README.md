@@ -1,5 +1,5 @@
 
-Reyna's Portfolio Website
+# Reyna's Portfolio Website
 
 Welcome to my personal portfolio! I'm Reyna Pineda, a passionate software engineer with a love for creating innovative applications. This website is a reflection of my journey in software engineering, showcasing the projects I've worked on, my skills, and a little bit about who I am.
 Features
@@ -9,7 +9,7 @@ Features
     Mobile-First Design: Optimized for mobile devices with a clean, minimalistic design, ensuring a great experience on all screen sizes.
     Project Showcase: An interactive section where you can explore the projects I've built and get a glimpse of my coding skills and creativity.
 
-Technologies Used
+# Technologies Used
 
     React: My framework of choice for building modern web applications.
     CSS: For styling and creating a visually appealing layout.
@@ -17,7 +17,7 @@ Technologies Used
     GitHub Pages: Hosting the website on GitHub Pages for easy access.
     Context API: For managing the dark and light theme preferences.
 
-About Me
+# About Me
 
 I am an aspiring software engineer who loves to solve problems and build meaningful tools. I get excited about creating applications that can make a difference, whether it’s a simple tool to improve daily life or a complex system designed to tackle specific challenges. With a background in both software development and UI/UX design, I aim to create intuitive, user-friendly experiences with a solid technical foundation.
 Live Demo
@@ -27,12 +27,12 @@ https://reyna221b.github.io/portfolio/
 Getting Started
 Prerequisites
 
-To run this project locally, you'll need:
+# To run this project locally, you'll need:
 
     Node.js (version 14 or higher)
     npm (Node Package Manager)
 
-Installation
+# Installation
 
     Clone the repository:
 
@@ -52,15 +52,15 @@ Start the development server:
 
     Open the app in your browser at http://localhost:3000.
 
-Deployment
+# Deployment
 
 To deploy the website to GitHub Pages, run:
 
 npm run deploy
 
 This will automatically build the app and push it to the gh-pages branch.
-Folder Structure
 
+```
 portfolio/
 ├── public/
 │   ├── images/               # Folder for images used in the portfolio
@@ -76,8 +76,8 @@ portfolio/
 ├── .gitignore                # Specifies files to be ignored by Git
 ├── package.json              # Contains project metadata and dependencies
 └── README.md                 # This file
+```
 
-
-Contributing
+# Contributing
 
 I’m always open to suggestions or feedback. If you’d like to contribute, feel free to fork this repository and submit a pull request. If you find any issues or bugs, please open an issue, and I’ll be happy to fix them!
