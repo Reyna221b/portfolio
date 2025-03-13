@@ -92,8 +92,8 @@ const Contact = () => {
 
          {/* Resume Download Button */}
          <a
-           href="/images/Reyna Pineda's Resume.pdf" 
-          download="Reyna Pineda's Resume.pdf "
+           href={`${process.env.PUBLIC_URL}/images/Reyna Pineda's Resume.pdf`} 
+          download="Reyna Pineda's Resume.pdf"
           className="resume-button"
         >
           <FaFileDownload /> Download My Resume

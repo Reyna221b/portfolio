@@ -45,7 +45,7 @@ const Navbar = () => {
           <Link to="/" onClick={() => setMenuOpen(false)}>Home</Link>
           <div className="tab-preview">
             <img
-              src={isDarkMode ? "/images/HD.png" : "/images/HL.png"}
+              src={isDarkMode ? `${process.env.PUBLIC_URL}/images/HD.png` : `${process.env.PUBLIC_URL}/images/HL.png`}
               alt="Home Preview"
             />
           </div>
@@ -54,7 +54,7 @@ const Navbar = () => {
           <Link to="/about" onClick={() => setMenuOpen(false)}>About</Link>
           <div className="tab-preview">
             <img
-              src={isDarkMode ? "/images/AD.png" : "/images/AL.png"}
+              src={isDarkMode ? `${process.env.PUBLIC_URL}/images/AD.png` : `${process.env.PUBLIC_URL}/images/AL.png`}
               alt="About Preview"
             />
           </div>
@@ -63,7 +63,7 @@ const Navbar = () => {
           <Link to="/projects" onClick={() => setMenuOpen(false)}>Projects</Link>
           <div className="tab-preview">
             <img
-              src={isDarkMode ? "/images/PD.png" : "/images/PL.png"}
+              src={isDarkMode ? `${process.env.PUBLIC_URL}/images/PD.png` : `${process.env.PUBLIC_URL}/images/PL.png`}
               alt="Projects Preview"
             />
           </div>
@@ -72,7 +72,7 @@ const Navbar = () => {
           <Link to="/contact" onClick={() => setMenuOpen(false)}>Contact</Link>
           <div className="tab-preview">
             <img
-              src={isDarkMode ? "/images/CD.png" : "/images/CL.png"}
+              src={isDarkMode ? `${process.env.PUBLIC_URL}/images/CD.png` : `${process.env.PUBLIC_URL}/images/CL.png`}
               alt="Contact Preview"
             />
           </div>
