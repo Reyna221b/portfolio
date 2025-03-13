@@ -17,8 +17,11 @@
     "react-tsparticles": "^2.12.2",
     "tsparticles": "^3.8.1",
     "web-vitals": "^2.1.4"
+    
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -44,5 +47,8 @@
   },
   "devDependencies": {
     "gh-pages": "^6.3.0"
-  }
+  },
+
+  "homepage": "https://Reyna221b.github.io/portfolio"
+
 }

@@ -9,7 +9,7 @@ const Home = () => {
       title: 'My Portfolio',
       description: 'A playful yet professional portfolio showcasing my projects, skills, and personality. Built with React, Framer Motion, and lots of love! The image above shows the new theme I am working on for the website!',
       image: '/images/portfolio.png',
-      link: 'https://yourportfolio.com',
+      link: 'https://Reyna221b.github.io/portfolio',
     },
   ];
 
