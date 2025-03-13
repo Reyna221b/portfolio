@@ -1,38 +1,129 @@
-.App {
-  text-align: center;
+/* App.css */
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: var(--background);
+  transition: background-color 0.3s ease-in-out;
 }
 
-.App-logo {
-  height: 40vmin;
+html[data-theme="light"] {
+  --background: #f3d4e9;  /* Light pink background */
+}
+
+html[data-theme="dark"] {
+  --background: #51557E;  /*outside background for navbar */
+}
+
+body {
+  cursor: url('../public/images/green.png'), auto;
+  font-family: 'VT323', monospace;
+  background-color: var(--background);
+  color: var(--text);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: repeating-linear-gradient(
+    transparent,
+    transparent 3px,
+    rgba(255, 0, 255, 0.1) 8px,
+    rgba(255, 0, 255, 0.1) 4px
+  );
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button {
+  background-color: var(--button-bg);
+  color: var(--text);
+  border: 2px solid var(--text);
+  padding: 10px;
+  font-family: 'VT323', monospace;
+  font-size: 1.2rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+button:hover {
+  background-color: var(--button-hover);
+  color: var(--button-text);
+  border: 2px solid var(--button-hover);
+  box-shadow: 0 0 10px var(--background), 0 0 20px var(--accent); /* Neon glow effect */
 }
 
-.App-link {
-  color: #61dafb;
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.typing-effect {
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 3s steps(40, end);
+}
+
+
+@keyframes glitch {
+  0% { transform: translate(0); }
+  20% { transform: translate(-2px, 2px); }
+  40% { transform: translate(2px, -2px); }
+  60% { transform: translate(-2px, 2px); }
+  80% { transform: translate(2px, -2px); }
+  100% { transform: translate(0); }
+}
+
+.vaporwave-bg {
+  background-image: url('e:\screenshots\light mode.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+:root {
+  --background: #7171e3;
+  --text: #050005;
+  --accent: #00ffff; 
+  --card-bg: #BAE5D5; 
+  --button-bg: #B590CA; 
+  --button-text: #0d0d1a;
+  --button-hover: #F0F696; 
+  --gradient-start2: #fb9ee8; 
+  --gradient-end2: #f3ffa7; 
+  --gradient-start:#d374f0 ;
+  --gradient-end: #97c3f6; 
+}
+
+[data-theme="dark"] {
+  --background: #1a1a2e;
+  --text: #f6f8f8; 
+  --accent: #ff00ff; 
+  --card-bg: #51557E; 
+  --button-bg: #D6D5A8; 
+  --button-text: #1a1a2e; 
+  --button-hover: #A8D3DA; 
+  --gradient-start: #390319; 
+  --gradient-end: #34495e; 
+  --gradient-start2: #192939;
+  --gradient-end2: #13470b;
+}
+
+
+.glitch-text {
+  animation: glitch 6.5s infinite;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }

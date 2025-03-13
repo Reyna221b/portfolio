@@ -1,0 +1,18 @@
+.projects {
+  text-align: center;
+  padding: 10px;
+  background-color: var(--background);
+  color: var(--text);
+  min-height: 80vh;
+}
+
+.projects h1 {
+  font-size: 3rem;
+  color: var(--accent);
+  text-shadow: 0 0 10px var(--accent);
+  padding: 15px 30px; 
+  border-radius: 10px; 
+  display: inline-block; 
+  backdrop-filter: blur(5px); 
+  border: 1px solid rgba(251, 245, 245, 0.293);
+}
